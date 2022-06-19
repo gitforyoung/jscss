@@ -17,7 +17,7 @@ function geolocationOk(position) {
       temperature.innerText = `현재 기온: ${Math.round(data.main.temp)}도`;
       city.innerText = `현재 장소: ${data.name}`;
       const icon = data.weather[0].icon;
-      weatherIcon.src = `http://openweathermap.org/img/wn/${icon}@2x.png`;
+      weatherIcon.src = `https://openweathermap.org/img/wn/${icon}@2x.png`;
     });
 }
 function geolocationError() {
