@@ -2,9 +2,6 @@
   display: none;
 }
 
-body {
-}
-
 div#body {
   display: table;
   margin-left: auto;
@@ -22,4 +19,12 @@ h1 {
   text-align: center;
   font-size: 200%;
   font-weight: bold;
+}
+
+button {
+  border: none;
+  outline: none;
+  box-shadow: none;
+  background-color:transparent;
+  margin-left: 10px
 }
