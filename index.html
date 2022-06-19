@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Todo Clock</title>
+    <meta charset="UTF-8" />
+  </head>
+  <body>
+    <header>
+        <h1>Todo Clock Web Application</h1>
+    </header>
+    <div id="body">
+      <div id="login-form" class="hidden">
+        <input type="text" placeholder="이름을 입력하세요!" required />
+        <button>Log In</button>
+      </div>
+      <div id="app" class="hidden">
+        <h1 id="hello"></h1>
+        <h2 class="js-clock"></h2>
+        <h2 class="js-location"></h2>
+        <div id="weather">
+          <span id="city"></span> <br>
+          <span id="temperature"></span> <br>
+          <span id="weather-text"></span> <br> 
+          <img id="weather-icon"></img> <br>
+        </div>
+        <form id="todo-form">
+          <input type="text" placeholder="할 일을 입력하세요!" style="width:100%" required />
+        </form>
+        <ul id="todo-list"></ul>
+        <script src="js/login.js"></script>
+        <script src="js/clock.js"></script>
+        <script src="js/background.js"></script>
+        <script src="js/weather.js"></script>
+        <script src="js/todo.js"></script>
+      </div>
+    </div>
+  </body>
+</html>
