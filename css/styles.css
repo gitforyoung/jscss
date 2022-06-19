@@ -22,9 +22,8 @@ h1 {
 }
 
 button {
-  border: none;
-  outline: none;
-  box-shadow: none;
-  background-color:transparent;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: lightgrey;
   margin-left: 10px
 }
